@@ -16,12 +16,14 @@ body{
   color: grey;
 }
 .row{
+
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .column{
-  flex-basis: 50%;
+
+  flex-basis: 100%;
   padding: 16px;
 }
 .columnList{
