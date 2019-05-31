@@ -17,7 +17,8 @@ body{
 }
 .row{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .column{
   flex-basis: 50%;
