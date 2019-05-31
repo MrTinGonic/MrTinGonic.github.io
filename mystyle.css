@@ -3,11 +3,6 @@
 body{
   background-color: rgb(217,211,222);
 }
-.flex-container{
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-}
 .flex-containerList{
   display: flex;
   flex-direction: column;
@@ -22,6 +17,7 @@ body{
 }
 .row{
   display: flex;
+  flex-wrap: nowrap;
 }
 .column{
   flex-basis: 50%;
