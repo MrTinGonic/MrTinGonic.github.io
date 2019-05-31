@@ -1,13 +1,122 @@
 /* CSS File */
+
 body{
-  background-color: purple;
+  background-color: rgb(217,211,222);
 }
-h1{
-  color: powderblue;
+.flex-container{
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
 }
-h2{
-  color: green;
+.flex-containerList{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  padding: 20px;
+  text-align: center;
+}
+.footer{
+  text-align: center;
+  color: grey;
+}
+.row{
+  display: flex;
+}
+.column{
+  flex-basis: 50%;
+  padding: 16px;
+}
+.columnList{
+  flex-basis: 100%;
+  padding: 16px;
+}
+img.flex{
+  width: 100%;
+}
+img.imgColumn{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px 0px 20px 0px;
+}
+img.imgLine{
+  margin-left: inherit;
+  margin-right: inherit;
+  padding: 10px 0px 0px 20px;
+}
+table.table1{
+  background-color: white;
+  text-align: left;
+  width: 100%;
+  padding: 10px 10px 10px 20px;
+}
+tr, th, td{
+  padding: 10px;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+}
+img.imgHome{
+  display: block;
+  margin-left: inherit;
+  margin-right: inherit;
+  padding: 20px 10px 10px 20px;
+}
+#headerfont{
+  color: white;
+  background-color: rgb(94, 163, 216);
+  font-size: 40px;
+  font-style: italic;
+  padding: 8px 8px 8px 8px;
+}
+/*
+Set default fonts.
+*/
+h1, h2, h3, h4, h5, h6{
+  font-family: "Verdana",sans-serif;
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
 }
 p{
+  font-family: "Georgia",serif;
+}
+p.pColumns{
+  color: black;
+  font-style: italic;
+  background-color: white;
+  padding: 8px 8px 8px 8px;
+}
+p.linkColumns{
+  color: black;
+  font-style: italic;
+  background-color: white;
+  padding: 8px 8px 8px 8px;
+}
+p.linkColumns:hover{
+  background-color: grey;
+}
+h2.h2NoLink{
   color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(94, 163, 216);
+  padding: 8px;
+}
+h2.h2Link{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(94, 163, 216);
+  padding: 8px;
+}
+h2.h2Link:hover{
+  background-color: grey;
+}
+
+h3{
+  color: white;
+  background-color: white;
+  height:10px;
 }
