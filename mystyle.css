@@ -3,9 +3,8 @@
 body{
   background-color: rgb(217,211,222);
 }
-.flex-containerList{
-  display: flex;
-  flex-direction: column;
+.toursList{
+  width: 100%;
 }
 .header{
   padding: 20px;
@@ -16,13 +15,11 @@ body{
   color: grey;
 }
 .row{
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 .column{
-  width: 100%;
   flex-basis: 50%;
   padding: 16px;
 }
