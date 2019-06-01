@@ -17,7 +17,7 @@ body{
 }
 .row{
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .column{
@@ -117,6 +117,6 @@ h3{
   height:10px;
 }
 iframe{
-  
+
   padding-top: 20px;
 }
