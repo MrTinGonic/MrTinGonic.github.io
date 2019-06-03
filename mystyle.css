@@ -19,7 +19,21 @@ body{
 img.flex{
   width: 100%;
 }
-img.imgMid{
+img.imgMidMap{
+  width: 140;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+img.imgMidTools{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+img.imgMidArrowForward{
+  width: 180;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,6 +57,7 @@ tr, th, td{
   border-right: 1px solid black;
 }
 img.imgHome{
+  width: 180;
   display: block;
   margin-left: inherit;
   margin-right: inherit;
