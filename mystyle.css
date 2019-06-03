@@ -3,9 +3,6 @@
 body{
   background-color: rgb(217,211,222);
 }
-a{
-  text-decoration: none;
-}
 .navbar{
   display: flex;
   background-color: rgb(94, 163, 216);
@@ -14,6 +11,7 @@ a{
 .navbar a{
   color: white;
   padding: 14px 16px 14px 16px; 
+  text-decoration: none;
 }
 .navbar a:hover{
   background-color: white;
