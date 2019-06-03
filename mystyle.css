@@ -9,19 +9,19 @@ body{
   margin-bottom: 20px;
 }
 .navbar a{
-  color: white;
-  padding: 14px 16px 14px 16px; 
   text-decoration: none;
+  font-family: "Georgia",serif;
+  color: white;
 }
 .navbar a:hover{
   background-color: white;
   color: black;
 }
-.navbar a.active{
+.navbar a:hover:not(.active){
   background-color: white;
   color: black;
 }
-.navbar a:hover:not(.active){
+.navbar a:active{
   background-color: white;
   color: black;
 }
