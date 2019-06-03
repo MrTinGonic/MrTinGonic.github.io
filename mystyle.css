@@ -8,11 +8,13 @@ body{
   background-color: rgb(94, 163, 216);
   margin-bottom: 20px;
 }
+a{
+  text-decoration: none;
+}
 .navbarLinksPadding{
   padding: 14px 16px 14px 16px;
 }
 .navbar a{
-  text-decoration: none;
   font-family: "Georgia",serif;
   color: white;
 }
