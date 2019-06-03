@@ -134,7 +134,8 @@ h2.h2Link{
   padding: 8px;
 }
 h2.h2Link:hover{
-  background-color: grey;
+  color: black;
+  background-color: white;
 }
 h3{
   color: white;
